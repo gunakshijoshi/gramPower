@@ -44,7 +44,7 @@ const DeviceList = (props) => {
             <div className={style['logout-button']}>
                 <button onClick={handleLogout}>Logout</button>
             </div>
-            <h1 className={style['device-title']}>Registered Device List:</h1>
+            <h1 className={style['device-title']}>Registered Device List:{deviceData.length}</h1>
 
             <div className={style['device-list']}>
                 {deviceData.map((device) => (
