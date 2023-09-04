@@ -1,0 +1,56 @@
+/* deviceDetails.module.css */
+
+/* Center-align the content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Margin on the sides of tables and graph */
+.tables-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+/* Individual table styles with margin and border-radius */
+.table {
+  border-collapse: collapse;
+  width: 45%;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Margin and border-radius for columns */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 10px 10px 0 10px;
+  border-radius: 10px;
+}
+
+.logout-button {
+  text-align: right;
+  margin: 20px;
+
+}
+
+.line-chart-container{
+ align-items: center;
+}
