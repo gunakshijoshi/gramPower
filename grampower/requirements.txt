@@ -1,0 +1,9 @@
+pip install APScheduler
+pip install djangorestframework
+pip install mysqlclient
+pip install MySQL-python
+pip install mysql-connector-python
+npm install react-google-charts
+npm install axios
+npm install react-router-dom
+npm install bootstrap
